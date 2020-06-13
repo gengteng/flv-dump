@@ -1,0 +1,14 @@
+[package]
+name = "flv-dump"
+version = "0.1.0"
+authors = ["GengTeng <me@gteng.org>"]
+edition = "2018"
+license = "MIT"
+description = "A flv dump tool"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "0.5.4"
+tokio = { version = "0.2", features = [ "full" ]}
+tokio-util = { version = "0.3", features = [ "codec" ]}

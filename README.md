@@ -4,7 +4,7 @@
 
 1. 安装 [Rust 开发环境](https://www.rust-lang.org/zh-CN/tools/install) ；
 2. `git clone https://github.com/live2o3/flv-dump.git` ；
-3. cd flv-dump && cargo build --release && cd target/release ；
+3. `cd flv-dump && cargo build --release && cd target/release` ；
 4. `./flv-dump <FLV文件路径> > dump.txt` 。
 
 生成的 dump.txt 格式如下：
